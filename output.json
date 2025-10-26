@@ -1,0 +1,570 @@
+{
+  "results": [
+    {
+      "graph_id": 1,
+      "input_stats": {
+        "vertices": 5,
+        "edges": 7
+      },
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "C",
+            "weight": 3
+          },
+          {
+            "from": "C",
+            "to": "B",
+            "weight": 2
+          },
+          {
+            "from": "B",
+            "to": "D",
+            "weight": 5
+          },
+          {
+            "from": "D",
+            "to": "E",
+            "weight": 6
+          }
+        ],
+        "totalCost": 16,
+        "operations": 5,
+        "executionTimeMs": 0.873084
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "A",
+            "to": "C",
+            "weight": 3
+          },
+          {
+            "from": "B",
+            "to": "D",
+            "weight": 5
+          },
+          {
+            "from": "D",
+            "to": "E",
+            "weight": 6
+          }
+        ],
+        "totalCost": 16,
+        "operations": 42,
+        "executionTimeMs": 0.36675
+      },
+      "comparison_summary": "MST total cost is identical (16). Structures may differ."
+    },
+    {
+      "graph_id": 2,
+      "input_stats": {
+        "vertices": 4,
+        "edges": 5
+      },
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 1
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "weight": 3
+          }
+        ],
+        "totalCost": 6,
+        "operations": 3,
+        "executionTimeMs": 0.014792
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 1
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "weight": 3
+          }
+        ],
+        "totalCost": 6,
+        "operations": 31,
+        "executionTimeMs": 0.013459
+      },
+      "comparison_summary": "MST total cost is identical (6). Structures may differ."
+    },
+    {
+      "graph_id": 3,
+      "input_stats": {
+        "vertices": 3,
+        "edges": 3
+      },
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 5
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 6
+          }
+        ],
+        "totalCost": 11,
+        "operations": 2,
+        "executionTimeMs": 0.006875
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 5
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 6
+          }
+        ],
+        "totalCost": 11,
+        "operations": 18,
+        "executionTimeMs": 0.005541
+      },
+      "comparison_summary": "MST total cost is identical (11). Structures may differ."
+    },
+    {
+      "graph_id": 4,
+      "input_stats": {
+        "vertices": 6,
+        "edges": 8
+      },
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 3
+          },
+          {
+            "from": "A",
+            "to": "C",
+            "weight": 5
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "weight": 4
+          },
+          {
+            "from": "D",
+            "to": "E",
+            "weight": 2
+          },
+          {
+            "from": "E",
+            "to": "F",
+            "weight": 3
+          }
+        ],
+        "totalCost": 17,
+        "operations": 5,
+        "executionTimeMs": 0.012792
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "D",
+            "to": "E",
+            "weight": 2
+          },
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 3
+          },
+          {
+            "from": "E",
+            "to": "F",
+            "weight": 3
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "weight": 4
+          },
+          {
+            "from": "A",
+            "to": "C",
+            "weight": 5
+          }
+        ],
+        "totalCost": 17,
+        "operations": 52,
+        "executionTimeMs": 0.013625
+      },
+      "comparison_summary": "MST total cost is identical (17). Structures may differ."
+    },
+    {
+      "graph_id": 5,
+      "input_stats": {
+        "vertices": 5,
+        "edges": 6
+      },
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "X",
+            "to": "Y",
+            "weight": 2
+          },
+          {
+            "from": "X",
+            "to": "Z",
+            "weight": 3
+          },
+          {
+            "from": "Y",
+            "to": "W",
+            "weight": 4
+          },
+          {
+            "from": "W",
+            "to": "V",
+            "weight": 6
+          }
+        ],
+        "totalCost": 15,
+        "operations": 5,
+        "executionTimeMs": 0.00975
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "X",
+            "to": "Y",
+            "weight": 2
+          },
+          {
+            "from": "X",
+            "to": "Z",
+            "weight": 3
+          },
+          {
+            "from": "Y",
+            "to": "W",
+            "weight": 4
+          },
+          {
+            "from": "W",
+            "to": "V",
+            "weight": 6
+          }
+        ],
+        "totalCost": 15,
+        "operations": 38,
+        "executionTimeMs": 0.007833
+      },
+      "comparison_summary": "MST total cost is identical (15). Structures may differ."
+    },
+    {
+      "graph_id": 6,
+      "input_stats": {
+        "vertices": 6,
+        "edges": 7
+      },
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "P",
+            "to": "Q",
+            "weight": 1
+          },
+          {
+            "from": "Q",
+            "to": "R",
+            "weight": 3
+          },
+          {
+            "from": "R",
+            "to": "S",
+            "weight": 4
+          },
+          {
+            "from": "S",
+            "to": "T",
+            "weight": 2
+          },
+          {
+            "from": "T",
+            "to": "U",
+            "weight": 5
+          }
+        ],
+        "totalCost": 15,
+        "operations": 5,
+        "executionTimeMs": 0.011042
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "P",
+            "to": "Q",
+            "weight": 1
+          },
+          {
+            "from": "S",
+            "to": "T",
+            "weight": 2
+          },
+          {
+            "from": "Q",
+            "to": "R",
+            "weight": 3
+          },
+          {
+            "from": "R",
+            "to": "S",
+            "weight": 4
+          },
+          {
+            "from": "T",
+            "to": "U",
+            "weight": 5
+          }
+        ],
+        "totalCost": 15,
+        "operations": 46,
+        "executionTimeMs": 0.011459
+      },
+      "comparison_summary": "MST total cost is identical (15). Structures may differ."
+    },
+    {
+      "graph_id": 7,
+      "input_stats": {
+        "vertices": 8,
+        "edges": 10
+      },
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 3
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "C",
+            "to": "E",
+            "weight": 4
+          },
+          {
+            "from": "E",
+            "to": "F",
+            "weight": 1
+          },
+          {
+            "from": "E",
+            "to": "G",
+            "weight": 3
+          },
+          {
+            "from": "G",
+            "to": "H",
+            "weight": 2
+          },
+          {
+            "from": "F",
+            "to": "D",
+            "weight": 5
+          }
+        ],
+        "totalCost": 20,
+        "operations": 7,
+        "executionTimeMs": 0.017916
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "E",
+            "to": "F",
+            "weight": 1
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "G",
+            "to": "H",
+            "weight": 2
+          },
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 3
+          },
+          {
+            "from": "E",
+            "to": "G",
+            "weight": 3
+          },
+          {
+            "from": "C",
+            "to": "E",
+            "weight": 4
+          },
+          {
+            "from": "D",
+            "to": "F",
+            "weight": 5
+          }
+        ],
+        "totalCost": 20,
+        "operations": 64,
+        "executionTimeMs": 0.016542
+      },
+      "comparison_summary": "MST total cost is identical (20). Structures may differ."
+    },
+    {
+      "graph_id": 8,
+      "input_stats": {
+        "vertices": 10,
+        "edges": 12
+      },
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "K",
+            "to": "L",
+            "weight": 4
+          },
+          {
+            "from": "L",
+            "to": "N",
+            "weight": 6
+          },
+          {
+            "from": "N",
+            "to": "M",
+            "weight": 3
+          },
+          {
+            "from": "N",
+            "to": "O",
+            "weight": 5
+          },
+          {
+            "from": "M",
+            "to": "Q",
+            "weight": 7
+          },
+          {
+            "from": "Q",
+            "to": "R",
+            "weight": 2
+          },
+          {
+            "from": "Q",
+            "to": "P",
+            "weight": 4
+          },
+          {
+            "from": "R",
+            "to": "S",
+            "weight": 6
+          },
+          {
+            "from": "S",
+            "to": "T",
+            "weight": 1
+          }
+        ],
+        "totalCost": 38,
+        "operations": 9,
+        "executionTimeMs": 0.020958
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "S",
+            "to": "T",
+            "weight": 1
+          },
+          {
+            "from": "Q",
+            "to": "R",
+            "weight": 2
+          },
+          {
+            "from": "M",
+            "to": "N",
+            "weight": 3
+          },
+          {
+            "from": "K",
+            "to": "L",
+            "weight": 4
+          },
+          {
+            "from": "P",
+            "to": "Q",
+            "weight": 4
+          },
+          {
+            "from": "N",
+            "to": "O",
+            "weight": 5
+          },
+          {
+            "from": "L",
+            "to": "N",
+            "weight": 6
+          },
+          {
+            "from": "R",
+            "to": "S",
+            "weight": 6
+          },
+          {
+            "from": "M",
+            "to": "Q",
+            "weight": 7
+          }
+        ],
+        "totalCost": 38,
+        "operations": 80,
+        "executionTimeMs": 0.020791
+      },
+      "comparison_summary": "MST total cost is identical (38). Structures may differ."
+    }
+  ]
+}

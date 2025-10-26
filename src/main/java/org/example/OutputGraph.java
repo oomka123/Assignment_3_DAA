@@ -2,6 +2,11 @@ package org.example;
 
 import java.util.Map;
 
+/**
+ * Represents the output result for a single graph, including MST results
+ * obtained from both Prim's and Kruskal's algorithms, as well as basic
+ * graph statistics and a summary comparing the two algorithms.
+ */
 public class OutputGraph {
 
     private int graph_id;
@@ -10,6 +15,15 @@ public class OutputGraph {
     private Result kruskal;
     private String comparison_summary;
 
+    /**
+     * Constructs an OutputGraph object to store the results of Prim's and Kruskal's algorithms
+     * for a specific graph, as well as input statistics and a comparison summary.
+     *
+     * @param graph_id the unique identifier for the graph
+     * @param input_stats a map containing statistics about the input graph (e.g., node and edge counts)
+     * @param prim the result of running Prim's algorithm on the graph
+     * @param kruskal the result of running Kruskal's algorithm on the graph
+     */
     public OutputGraph(int graph_id, Map<String, Integer> input_stats, Result prim, Result kruskal) {
         this.graph_id = graph_id;
         this.input_stats = input_stats;

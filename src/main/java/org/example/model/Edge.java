@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 /**
  * Represents an undirected weighted edge connecting two vertices in the graph.
@@ -16,7 +16,7 @@ public class Edge {
      * @param to     the ending vertex of the edge
      * @param weight the weight or cost associated with the edge
      */
-    Edge(String from, String to, int weight) {
+    public Edge(String from, String to, int weight) {
         this.from = from;
         this.to = to;
         this.weight = weight;

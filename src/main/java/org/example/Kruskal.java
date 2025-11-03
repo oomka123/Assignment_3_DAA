@@ -1,4 +1,6 @@
 package org.example;
+import org.example.model.Edge;
+
 import java.util.*;
 
 /**

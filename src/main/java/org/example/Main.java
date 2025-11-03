@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.model.GraphData;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -22,13 +24,13 @@ public class Main {
 
         switch (choice) {
             case "1":
-                inputFile = "easy_input.json";
+                inputFile = "data/easy_input.json";
                 break;
             case "2":
-                inputFile = "medium_input.json";
+                inputFile = "data/medium_input.json";
                 break;
             case "3":
-                inputFile = "hard_input.json";
+                inputFile = "data/hard_input.json";
                 break;
             default:
                 System.out.println("Invalid choice. Using default input.json file.");
@@ -42,7 +44,7 @@ public class Main {
             results.add(compareMSTs(graph));
         }
 
-        writeResultsToJson(results, "output.json");
+        writeResultsToJson(results, "data/output.json");
         System.out.println("Comparison completed. Results saved to output.json");
     }
 }

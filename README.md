@@ -1,4 +1,4 @@
-# Smart City Scheduling System
+# City Transportation Network Optimization
 
 [![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://www.oracle.com/java/)
 [![Maven](https://img.shields.io/badge/Maven-3.6+-blue.svg)](https://maven.apache.org/)
@@ -12,7 +12,6 @@
 - [Project Structure](#project-structure)
 
 ---
-# City Transportation Network Optimization
 
 ## Assignment 3: Minimum Spanning Tree Algorithm Implementation and Analysis
 
